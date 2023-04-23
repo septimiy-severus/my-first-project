@@ -1,0 +1,155 @@
+@media(max-width:1450px) {
+    .header {
+        padding: 18px 10px 17px 10px;
+    }
+
+    .hero-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .inner {
+        padding: 62px 10px 114px 56px;
+    }
+
+    .contact {
+        padding: 130px 10px 128px 10px;
+    }
+
+    .contact-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-top {
+        padding: 20px 10px 13px 10px;
+    }
+
+    .footer-bottom {
+        padding: 21px 10px;
+    }
+}
+
+@media(max-width:980px) {
+
+    .inner {
+        padding: 62px 10px 114px 10px;
+    }
+
+    .inner-img {
+        width: 584px;
+    }
+
+    .contact-text {
+        width: 100%;
+    }
+}
+
+@media(max-width:850px) {
+    .nav {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: #fff;
+        transform: translateX(-100%);
+        transition: 0.3s ease;
+    }
+
+    .nav.active {
+        transform: translateX(0);
+    }
+
+    .menu {
+        flex-direction: column;
+        padding: 100px 0 0 0px;
+        align-items: center;
+    }
+
+    .burger {
+        display: block;
+        background: url(../images/burger.svg) no-repeat center;
+        width: 60px;
+        height: 40px;
+        transition: 0.3s ease;
+        position: relative;
+        z-index: 5;
+    }
+
+    .burger.active {
+        background: url(../images/close.svg) no-repeat center;
+    }
+
+    .map {
+        width: 100%;
+    }
+}
+
+@media(max-width:768px) {
+
+    .hero-content,
+    .hero-img {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-top-text {
+        width: 100%;
+    }
+
+}
+
+@media(max-width:590px) {
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .inner-img,
+    .inner-conent {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+@media(max-width:450px) {
+
+    .hero-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-play {
+        width: 100%;
+        background: transparent;
+        text-align: center;
+    }
+
+    .hero-link {
+        width: 100%;
+    }
+
+    .contact-form {
+        padding: 33px 10px 40px 10px;
+    }
+
+    .map {
+        height: 350px;
+    }
+}
