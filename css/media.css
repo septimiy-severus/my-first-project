@@ -57,6 +57,7 @@
         background: #fff;
         transform: translateX(-100%);
         transition: 0.3s ease;
+        height: 100vh;
     }
 
     .nav.active {

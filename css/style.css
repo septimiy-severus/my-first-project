@@ -39,6 +39,10 @@ body {
     color: #c5c5c5;
 }
 
+.hidden {
+    overflow-y: hidden;
+}
+
 .header {
     padding: 18px 0 17px 0;
     background: #FFFFFF;
